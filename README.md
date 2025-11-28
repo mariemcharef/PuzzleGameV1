@@ -1,1 +1,1 @@
-[📄 Download the PDF](./umldiagram.pdf)
+[📄 UML DIAGRAM](./umldiagram.pdf)
