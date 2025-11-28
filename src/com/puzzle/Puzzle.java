@@ -33,6 +33,8 @@ public class Puzzle extends Application {
     private Timer timer;
 
     private StackPane rootPane;
+    private GameLogger logger;
+
 
     @Override
     public void start(Stage primaryStage) {
@@ -118,6 +120,8 @@ public class Puzzle extends Application {
 
         startGameLoop();
         render();
+        logger = GameLogger.getInstance();
+        logger.log("Game started.");
     }
 
     private Label createControlLabel(String text) {
@@ -174,12 +178,18 @@ public class Puzzle extends Application {
 
         int linesCleared = clearLines();
         score += linesCleared * 100;
+        if (linesCleared > 0) {
+            logger.log(linesCleared + " line(s) cleared.");
+        }
+
         scoreLabel.setText(String.valueOf(score));
 
         currentPiece = TetrominoFactory.createPiece();
 
         if (checkCollision(currentPiece)) {
             gameOver = true;
+            logger.log("Game Over! Final score: " + score);
+
             showGameOver();
         }
     }
@@ -240,8 +250,8 @@ public class Puzzle extends Application {
                 Command hardDrop = new SpeedBoostDecorator(
                     new MoveCommand(currentPiece, 0, 1, grid, this::updatePiece)
                 );
-                hardDrop.execute();       // drop piece to bottom
-                currentPiece.setState(new LandedState()); // lock piece
+                hardDrop.execute();     
+                currentPiece.setState(new LandedState()); 
                 lockPiece();
                 break;
         }
