@@ -1,0 +1,741 @@
+[2025-11-28 10:55:53] === TETRIS GAME STARTED ===
+[2025-11-28 10:56:13] === TETRIS GAME STARTED ===
+[2025-11-28 11:04:58] === TETRIS GAME STARTED ===
+[2025-11-28 11:04:58] Applied decorator: ShieldDecorator
+[2025-11-28 11:04:58] Shield activated - Piece protected from instant lock
+[2025-11-28 11:04:58] Created GameObjectGroup: MainScene
+[2025-11-28 11:04:58] Created GameObjectGroup: PowerUps
+[2025-11-28 11:04:58] Created GameObjectGroup: Effects
+[2025-11-28 11:04:58] Added component to MainScene: PowerUps
+[2025-11-28 11:04:58] Added component to MainScene: Effects
+[2025-11-28 11:04:58] Game initialized with composite structure
+[2025-11-28 11:05:04] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:04] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:04] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:04] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:11] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:11] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:20] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:20] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:20] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:20] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:25] === GAME RESTARTED ===
+[2025-11-28 11:05:25] Created GameObjectGroup: MainScene
+[2025-11-28 11:05:25] Created GameObjectGroup: PowerUps
+[2025-11-28 11:05:25] Created GameObjectGroup: Effects
+[2025-11-28 11:05:25] Added component to MainScene: PowerUps
+[2025-11-28 11:05:25] Added component to MainScene: Effects
+[2025-11-28 11:05:25] Game initialized with composite structure
+[2025-11-28 11:05:26] Applied decorator: GhostDecorator
+[2025-11-28 11:05:26] Ghost Mode activated - Preview landing position
+[2025-11-28 11:05:27] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:27] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:27] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:27] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:27] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:27] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:28] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:28] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:28] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:28] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:28] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 11:05:28] Score Multiplier activated - x3 points
+[2025-11-28 11:05:29] Applied decorator: ShieldDecorator
+[2025-11-28 11:05:29] Shield activated - Piece protected from instant lock
+[2025-11-28 11:05:29] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:29] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:30] Applied decorator: GhostDecorator
+[2025-11-28 11:05:30] Ghost Mode activated - Preview landing position
+[2025-11-28 11:05:31] === GAME OVER === Final Score: 0
+[2025-11-28 11:05:39] === GAME RESTARTED ===
+[2025-11-28 11:05:39] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 11:05:39] Score Multiplier activated - x2 points
+[2025-11-28 11:05:39] Created GameObjectGroup: MainScene
+[2025-11-28 11:05:39] Created GameObjectGroup: PowerUps
+[2025-11-28 11:05:39] Created GameObjectGroup: Effects
+[2025-11-28 11:05:39] Added component to MainScene: PowerUps
+[2025-11-28 11:05:39] Added component to MainScene: Effects
+[2025-11-28 11:05:39] Game initialized with composite structure
+[2025-11-28 11:05:50] Game paused
+[2025-11-28 11:05:53] === GAME RESTARTED ===
+[2025-11-28 11:05:53] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:53] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:53] Applied decorator: GhostDecorator
+[2025-11-28 11:05:53] Ghost Mode activated - Preview landing position
+[2025-11-28 11:05:53] Created GameObjectGroup: MainScene
+[2025-11-28 11:05:53] Created GameObjectGroup: PowerUps
+[2025-11-28 11:05:53] Created GameObjectGroup: Effects
+[2025-11-28 11:05:53] Added component to MainScene: PowerUps
+[2025-11-28 11:05:53] Added component to MainScene: Effects
+[2025-11-28 11:05:53] Game initialized with composite structure
+[2025-11-28 11:05:57] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:05:57] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:05:57] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 11:05:57] Score Multiplier activated - x3 points
+[2025-11-28 11:05:57] Applied decorator: GhostDecorator
+[2025-11-28 11:05:57] Ghost Mode activated - Preview landing position
+[2025-11-28 11:06:01] Game paused
+[2025-11-28 11:06:05] === GAME RESTARTED ===
+[2025-11-28 11:06:05] Created GameObjectGroup: MainScene
+[2025-11-28 11:06:05] Created GameObjectGroup: PowerUps
+[2025-11-28 11:06:05] Created GameObjectGroup: Effects
+[2025-11-28 11:06:05] Added component to MainScene: PowerUps
+[2025-11-28 11:06:05] Added component to MainScene: Effects
+[2025-11-28 11:06:05] Game initialized with composite structure
+[2025-11-28 11:06:07] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:06:07] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:06:07] Applied decorator: GhostDecorator
+[2025-11-28 11:06:07] Ghost Mode activated - Preview landing position
+[2025-11-28 11:06:15] === GAME RESTARTED ===
+[2025-11-28 11:06:15] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:06:15] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:06:15] Created GameObjectGroup: MainScene
+[2025-11-28 11:06:15] Created GameObjectGroup: PowerUps
+[2025-11-28 11:06:15] Created GameObjectGroup: Effects
+[2025-11-28 11:06:15] Added component to MainScene: PowerUps
+[2025-11-28 11:06:15] Added component to MainScene: Effects
+[2025-11-28 11:06:15] Game initialized with composite structure
+[2025-11-28 11:06:19] Applied decorator: ShieldDecorator
+[2025-11-28 11:06:19] Shield activated - Piece protected from instant lock
+[2025-11-28 11:06:28] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:06:28] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:06:32] Applied decorator: ShieldDecorator
+[2025-11-28 11:06:32] Shield activated - Piece protected from instant lock
+[2025-11-28 11:06:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:06:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:06:37] Game paused
+[2025-11-28 11:06:43] === GAME RESTARTED ===
+[2025-11-28 11:06:43] Applied decorator: ShieldDecorator
+[2025-11-28 11:06:43] Shield activated - Piece protected from instant lock
+[2025-11-28 11:06:43] Created GameObjectGroup: MainScene
+[2025-11-28 11:06:43] Created GameObjectGroup: PowerUps
+[2025-11-28 11:06:43] Created GameObjectGroup: Effects
+[2025-11-28 11:06:43] Added component to MainScene: PowerUps
+[2025-11-28 11:06:43] Added component to MainScene: Effects
+[2025-11-28 11:06:43] Game initialized with composite structure
+[2025-11-28 11:06:55] Applied decorator: ShieldDecorator
+[2025-11-28 11:06:55] Shield activated - Piece protected from instant lock
+[2025-11-28 11:07:04] Applied decorator: SpeedBoostDecorator
+[2025-11-28 11:07:04] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 11:07:12] Applied decorator: ShieldDecorator
+[2025-11-28 11:07:12] Shield activated - Piece protected from instant lock
+[2025-11-28 11:07:12] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 11:07:12] Score Multiplier activated - x3 points
+[2025-11-28 11:07:15] Game paused
+[2025-11-28 12:02:29] === TETRIS GAME STARTED ===
+[2025-11-28 12:02:29] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:29] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:29] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:29] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:29] Created GameObjectGroup: MainScene
+[2025-11-28 12:02:29] Created GameObjectGroup: PowerUps
+[2025-11-28 12:02:29] Created GameObjectGroup: Effects
+[2025-11-28 12:02:29] Added component to MainScene: PowerUps
+[2025-11-28 12:02:29] Added component to MainScene: Effects
+[2025-11-28 12:02:29] Game initialized with composite structure
+[2025-11-28 12:02:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:30] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:30] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:30] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:30] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:30] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:30] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:31] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:31] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:31] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:31] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:31] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:31] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:31] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:31] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:32] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:32] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:32] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:32] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:32] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:32] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:33] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:33] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:33] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:33] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:33] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:33] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:33] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:33] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:33] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:33] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:33] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:33] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:33] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:33] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:33] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:33] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:34] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:34] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:34] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:35] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:35] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:35] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:35] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:35] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:35] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:35] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:35] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:35] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:35] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:35] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:35] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:35] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:35] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:35] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:36] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:36] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:36] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:36] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:36] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:36] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:36] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:36] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:36] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:36] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:36] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:36] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:36] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:36] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:36] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:36] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:37] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:37] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:37] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:37] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:37] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:37] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:37] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:37] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:37] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:37] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:37] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:37] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:38] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:38] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:38] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:38] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:38] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:38] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:38] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:38] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:38] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:38] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:38] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:38] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:38] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:38] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:38] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:38] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:39] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:39] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:39] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:39] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:39] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:39] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:39] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:39] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:39] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:39] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:39] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:39] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:40] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:40] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:40] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:40] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:40] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:40] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:40] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:40] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:40] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:40] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:40] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:40] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:41] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:41] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:41] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:41] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:41] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:41] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:41] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:41] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:41] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:41] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:41] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:41] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:42] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:42] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:42] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:42] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:42] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:42] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:42] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:42] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:42] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:42] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:42] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:42] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:42] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:42] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:42] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:42] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:43] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:43] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:43] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:43] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:43] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:43] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:43] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:43] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:43] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:43] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:43] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:43] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:43] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:43] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:43] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:44] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:44] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:44] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:02:44] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:02:44] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:44] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:44] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:44] Score Multiplier activated - x2 points
+[2025-11-28 12:02:44] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:44] Score Multiplier activated - x1 points
+[2025-11-28 12:02:44] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:44] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:45] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:45] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:45] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:45] Score Multiplier activated - x1 points
+[2025-11-28 12:02:45] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:45] Score Multiplier activated - x1 points
+[2025-11-28 12:02:45] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:45] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:46] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:46] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:46] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:46] Score Multiplier activated - x1 points
+[2025-11-28 12:02:46] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:46] Score Multiplier activated - x1 points
+[2025-11-28 12:02:46] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:46] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:47] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:47] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:47] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:47] Score Multiplier activated - x1 points
+[2025-11-28 12:02:47] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:47] Score Multiplier activated - x1 points
+[2025-11-28 12:02:47] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:47] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:48] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:48] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:48] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:48] Score Multiplier activated - x1 points
+[2025-11-28 12:02:48] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:48] Score Multiplier activated - x1 points
+[2025-11-28 12:02:48] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:48] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:48] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:48] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:48] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:48] Score Multiplier activated - x1 points
+[2025-11-28 12:02:48] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:48] Score Multiplier activated - x1 points
+[2025-11-28 12:02:48] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:48] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:49] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:49] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:49] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:49] Score Multiplier activated - x1 points
+[2025-11-28 12:02:49] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:49] Score Multiplier activated - x1 points
+[2025-11-28 12:02:49] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:49] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:49] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:49] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:49] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:49] Score Multiplier activated - x1 points
+[2025-11-28 12:02:50] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:50] Score Multiplier activated - x1 points
+[2025-11-28 12:02:50] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:50] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:50] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:50] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:50] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:50] Score Multiplier activated - x1 points
+[2025-11-28 12:02:50] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:50] Score Multiplier activated - x1 points
+[2025-11-28 12:02:50] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:50] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:51] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:51] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:51] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:51] Score Multiplier activated - x1 points
+[2025-11-28 12:02:51] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:51] Score Multiplier activated - x1 points
+[2025-11-28 12:02:51] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:51] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:52] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:52] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:52] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:52] Score Multiplier activated - x1 points
+[2025-11-28 12:02:52] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:52] Score Multiplier activated - x1 points
+[2025-11-28 12:02:52] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:52] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:53] Applied decorator: ShieldDecorator
+[2025-11-28 12:02:53] Shield activated - Piece protected from instant lock
+[2025-11-28 12:02:53] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:02:53] Score Multiplier activated - x1 points
+[2025-11-28 12:03:01] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:01] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:01] Applied decorator: GhostDecorator
+[2025-11-28 12:03:01] Ghost Mode activated - Preview landing position
+[2025-11-28 12:03:02] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:02] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:02] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:02] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:03] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:03] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:03] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:03] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:03] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:03] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:04] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:04] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:04] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:04] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:05] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:05] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:05] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:05] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:06] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:06] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:06] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:06] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:07] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:07] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:07] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:07] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:07] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:07] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:08] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:08] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:08] Score Multiplier activated - x3 points
+[2025-11-28 12:03:08] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:08] Score Multiplier activated - x1 points
+[2025-11-28 12:03:08] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:08] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:08] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:08] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:08] Score Multiplier activated - x1 points
+[2025-11-28 12:03:08] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:08] Score Multiplier activated - x1 points
+[2025-11-28 12:03:08] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:08] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:08] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:08] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:08] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:08] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:08] Score Multiplier activated - x1 points
+[2025-11-28 12:03:09] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:09] Score Multiplier activated - x1 points
+[2025-11-28 12:03:09] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:09] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:09] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:09] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:09] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:09] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:09] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:09] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:09] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:09] Score Multiplier activated - x1 points
+[2025-11-28 12:03:09] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:09] Score Multiplier activated - x1 points
+[2025-11-28 12:03:09] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:09] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:09] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:09] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:10] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:10] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:10] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:10] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:10] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:10] Score Multiplier activated - x1 points
+[2025-11-28 12:03:10] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:10] Score Multiplier activated - x1 points
+[2025-11-28 12:03:10] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:10] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:10] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:10] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:10] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:10] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:10] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:10] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:10] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:10] Score Multiplier activated - x1 points
+[2025-11-28 12:03:10] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:10] Score Multiplier activated - x1 points
+[2025-11-28 12:03:10] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:10] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:10] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:10] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:11] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:11] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:11] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:11] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:11] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:11] Score Multiplier activated - x1 points
+[2025-11-28 12:03:11] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:11] Score Multiplier activated - x1 points
+[2025-11-28 12:03:11] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:11] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:11] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:11] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:11] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:11] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:11] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:11] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:11] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:11] Score Multiplier activated - x1 points
+[2025-11-28 12:03:12] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:12] Score Multiplier activated - x1 points
+[2025-11-28 12:03:12] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:12] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:12] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:12] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:12] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:12] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:12] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:12] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:12] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:12] Score Multiplier activated - x1 points
+[2025-11-28 12:03:12] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:12] Score Multiplier activated - x1 points
+[2025-11-28 12:03:12] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:12] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:12] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:12] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:13] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:13] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:13] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:13] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:13] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:13] Score Multiplier activated - x2 points
+[2025-11-28 12:03:13] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:13] Score Multiplier activated - x1 points
+[2025-11-28 12:03:13] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:13] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:13] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:13] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:13] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:13] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:13] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:13] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:13] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:13] Score Multiplier activated - x1 points
+[2025-11-28 12:03:14] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:14] Score Multiplier activated - x1 points
+[2025-11-28 12:03:14] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:14] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:14] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:14] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:14] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:14] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:14] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:14] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:14] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:14] Score Multiplier activated - x1 points
+[2025-11-28 12:03:14] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:14] Score Multiplier activated - x1 points
+[2025-11-28 12:03:14] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:14] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:14] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:14] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:14] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:14] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:14] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:14] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:14] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:14] Score Multiplier activated - x1 points
+[2025-11-28 12:03:15] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:15] Score Multiplier activated - x1 points
+[2025-11-28 12:03:15] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:15] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:15] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:15] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:15] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:15] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:15] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:15] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:15] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:15] Score Multiplier activated - x1 points
+[2025-11-28 12:03:15] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:15] Score Multiplier activated - x1 points
+[2025-11-28 12:03:15] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:15] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:15] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:15] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:16] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:16] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:16] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:16] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:16] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:16] Score Multiplier activated - x1 points
+[2025-11-28 12:03:16] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:16] Score Multiplier activated - x1 points
+[2025-11-28 12:03:16] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:16] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:16] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:16] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:16] Applied decorator: ShieldDecorator
+[2025-11-28 12:03:16] Shield activated - Piece protected from instant lock
+[2025-11-28 12:03:16] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:16] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:16] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:16] Score Multiplier activated - x1 points
+[2025-11-28 12:03:17] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:17] Score Multiplier activated - x4 points
+[2025-11-28 12:03:17] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:17] Score Multiplier activated - x1 points
+[2025-11-28 12:03:18] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:18] Score Multiplier activated - x1 points
+[2025-11-28 12:03:18] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:18] Score Multiplier activated - x1 points
+[2025-11-28 12:03:19] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:19] Score Multiplier activated - x1 points
+[2025-11-28 12:03:19] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:19] Score Multiplier activated - x1 points
+[2025-11-28 12:03:20] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:20] Score Multiplier activated - x1 points
+[2025-11-28 12:03:20] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:20] Score Multiplier activated - x1 points
+[2025-11-28 12:03:21] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:21] Score Multiplier activated - x1 points
+[2025-11-28 12:03:21] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:21] Score Multiplier activated - x1 points
+[2025-11-28 12:03:26] Applied decorator: GhostDecorator
+[2025-11-28 12:03:26] Ghost Mode activated - Preview landing position
+[2025-11-28 12:03:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:30] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:30] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:31] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:31] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:32] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:32] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:33] Applied decorator: SpeedBoostDecorator
+[2025-11-28 12:03:33] Speed Boost activated - Fall speed increased by 50%
+[2025-11-28 12:03:35] Applied decorator: ScoreMultiplierDecorator
+[2025-11-28 12:03:35] Score Multiplier activated - x3 points
+[2025-11-28 12:03:35] === GAME OVER === Final Score: 0
+[2025-11-28 12:03:36] Game paused

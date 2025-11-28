@@ -1,4 +1,4 @@
-package com.tetris;
+package com.puzzle;
 
 import java.io.FileWriter;
 import java.io.IOException;

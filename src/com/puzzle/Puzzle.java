@@ -1,4 +1,4 @@
-package com.tetris;
+package com.puzzle;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -19,7 +19,7 @@ import javafx.stage.Stage;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class TetrisGame extends Application {
+public class Puzzle extends Application {
 
     private BlockType[][] grid;
     private Piece currentPiece;
@@ -38,14 +38,14 @@ public class TetrisGame extends Application {
     public void start(Stage primaryStage) {
         initializeGame();
 
-        rootPane = new StackPane();
+        rootPane = new StackPane();//layout container in JavaFX that arranges its child nodes
         rootPane.setStyle("-fx-background-color: #1a1a1a;");
 
         VBox layout = new VBox(20);
         layout.setAlignment(Pos.CENTER);
         layout.setPadding(new Insets(20));
 
-        Label title = new Label("TETRIS");
+        Label title = new Label("Puzzle");
         title.setFont(Font.font("Arial", FontWeight.BOLD, 48));
         title.setTextFill(Color.WHITE);
 
@@ -87,8 +87,7 @@ public class TetrisGame extends Application {
         controlsPanel.getChildren().addAll(
                 createControlLabel("← → Move"),
                 createControlLabel("↑ Rotate"),
-                createControlLabel("↓ Soft Drop"),
-                createControlLabel("Space: Hard Drop")
+                createControlLabel("↓ Speed Fall")
         );
 
         pauseButton = new Button("Pause");
@@ -111,7 +110,7 @@ public class TetrisGame extends Application {
         rootPane.requestFocus();
 
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Tetris");
+        primaryStage.setTitle("Puzzle");
         primaryStage.setOnCloseRequest(e -> {
             if (timer != null) timer.cancel();
         });
@@ -123,7 +122,7 @@ public class TetrisGame extends Application {
 
     private Label createControlLabel(String text) {
         Label label = new Label(text);
-        label.setFont(Font.font("Arial", 14));
+        label.setFont(Font.font("Arial", 10));
         label.setTextFill(Color.WHITE);
         return label;
     }
@@ -234,15 +233,15 @@ public class TetrisGame extends Application {
             case RIGHT:
                 new MoveCommand(currentPiece, 1, 0, grid, this::updatePiece).execute();
                 break;
-            case DOWN:
-                moveDown();
-                break;
             case UP:
                 new RotateCommand(currentPiece, grid, this::updatePiece).execute();
                 break;
-            case SPACE:
-                MoveCommand drop = new MoveCommand(currentPiece, 0, 1, grid, this::updatePiece);
-                while (drop.canExecute()) drop.execute();
+            case DOWN:
+                Command hardDrop = new SpeedBoostDecorator(
+                    new MoveCommand(currentPiece, 0, 1, grid, this::updatePiece)
+                );
+                hardDrop.execute();       // drop piece to bottom
+                currentPiece.setState(new LandedState()); // lock piece
                 lockPiece();
                 break;
         }

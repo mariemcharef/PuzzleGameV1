@@ -1,4 +1,4 @@
-package com.tetris;
+package com.puzzle;
 
 import javafx.scene.canvas.GraphicsContext;
 import java.util.List;

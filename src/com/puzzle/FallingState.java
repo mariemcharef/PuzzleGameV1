@@ -1,4 +1,4 @@
-package com.tetris;
+package com.puzzle;
 
 public class FallingState extends PieceState {
     @Override

@@ -1,5 +1,5 @@
 
-package com.tetris;
+package com.puzzle;
 
 
 public class Position {

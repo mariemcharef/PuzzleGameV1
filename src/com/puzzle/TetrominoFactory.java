@@ -1,4 +1,4 @@
-package com.tetris;
+package com.puzzle;
 import javafx.scene.paint.Color;
 import java.util.*;
 
