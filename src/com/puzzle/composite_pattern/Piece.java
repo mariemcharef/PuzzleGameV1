@@ -1,8 +1,14 @@
-package com.puzzle;
+package com.puzzle.composite_pattern;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.puzzle.BlockType;
+import com.puzzle.Constants;
+import com.puzzle.Position;
+import com.puzzle.state_pattern.FallingState;
+import com.puzzle.state_pattern.PieceState;
 
 public class Piece implements PieceComponent {
     private BlockType type;

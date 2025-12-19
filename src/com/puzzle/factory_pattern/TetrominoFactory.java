@@ -1,6 +1,10 @@
-package com.puzzle;
+package com.puzzle.factory_pattern;
 import javafx.scene.paint.Color;
 import java.util.*;
+
+import com.puzzle.BlockType;
+import com.puzzle.Position;
+import com.puzzle.composite_pattern.Piece;
 
 public class TetrominoFactory {
     private static final Map<BlockType, Shape> shapes = new HashMap<>();

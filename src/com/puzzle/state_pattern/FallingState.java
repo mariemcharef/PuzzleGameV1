@@ -1,4 +1,4 @@
-package com.puzzle;
+package com.puzzle.state_pattern;
 
 public class FallingState extends PieceState {
     @Override

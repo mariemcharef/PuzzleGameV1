@@ -19,6 +19,14 @@ import javafx.stage.Stage;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import com.puzzle.command_pattern.MoveCommand;
+import com.puzzle.command_pattern.RotateCommand;
+import com.puzzle.composite_pattern.Piece;
+import com.puzzle.decorator_pattern.SpeedBoostDecorator;
+import com.puzzle.factory_pattern.TetrominoFactory;
+import com.puzzle.state_pattern.LandedState;
+import com.puzzle.command_pattern.Command;
+
 public class Puzzle extends Application {
 
     private BlockType[][] grid;

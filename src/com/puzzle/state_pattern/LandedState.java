@@ -1,4 +1,5 @@
-package com.puzzle;
+package com.puzzle.state_pattern;
+
 public class LandedState extends PieceState {
     @Override
     public boolean canMove() { 

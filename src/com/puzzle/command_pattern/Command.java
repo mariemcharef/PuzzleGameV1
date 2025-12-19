@@ -1,4 +1,4 @@
-package com.puzzle;
+package com.puzzle.command_pattern;
 
 public interface Command {
     boolean canExecute();

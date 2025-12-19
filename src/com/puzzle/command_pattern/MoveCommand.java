@@ -1,4 +1,10 @@
-package com.puzzle;
+package com.puzzle.command_pattern;
+
+import com.puzzle.BlockType;
+import com.puzzle.Constants;
+import com.puzzle.Position;
+import com.puzzle.composite_pattern.Piece;
+
 public class MoveCommand implements Command {
     private Piece piece;
     private int dx;
