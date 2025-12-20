@@ -3,6 +3,7 @@ import javafx.scene.paint.Color;
 import java.util.*;
 
 import com.puzzle.BlockType;
+import com.puzzle.GameLogger;
 import com.puzzle.Position;
 import com.puzzle.composite_pattern.Piece;
 
@@ -59,6 +60,8 @@ public class TetrominoFactory {
             blocks.add(new Position(pos));
         }
         
-        return new Piece(type, blocks, shape.color);
+        Piece piece = new Piece(type, blocks, shape.color);
+        GameLogger.getInstance().log("Factory pattern used: TetrominoFactory.createPiece()");
+        return piece;
     }
 }

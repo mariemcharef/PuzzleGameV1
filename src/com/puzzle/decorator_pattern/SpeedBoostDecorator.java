@@ -1,6 +1,7 @@
 package com.puzzle.decorator_pattern;
 
 import com.puzzle.command_pattern.Command;
+import com.puzzle.GameLogger;
 
 public class SpeedBoostDecorator implements Command {
     private final Command wrappedCommand;
@@ -16,6 +17,7 @@ public class SpeedBoostDecorator implements Command {
 
     @Override
     public void execute() {
+        GameLogger.getInstance().log("Decorator pattern used: SpeedBoostDecorator.execute()");
         while (wrappedCommand.canExecute()) {
             wrappedCommand.execute();
         }

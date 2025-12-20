@@ -9,6 +9,7 @@ import com.puzzle.Constants;
 import com.puzzle.Position;
 import com.puzzle.state_pattern.FallingState;
 import com.puzzle.state_pattern.PieceState;
+import com.puzzle.GameLogger;
 
 public class Piece implements PieceComponent {
     private BlockType type;
@@ -27,6 +28,7 @@ public class Piece implements PieceComponent {
         this.color = color;
         this.position = position;
         this.state = state;
+        GameLogger.getInstance().log("Composite pattern used: Piece created (" + type.name() + ")");
     }
     
     @Override
@@ -56,6 +58,7 @@ public class Piece implements PieceComponent {
     @Override
     public void setState(PieceState state) {
         this.state = state;
+        GameLogger.getInstance().log("State pattern used: " + state.getClass().getSimpleName() + " set for piece " + type.name());
     }
     
     @Override

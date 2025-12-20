@@ -7,6 +7,7 @@ import com.puzzle.BlockType;
 import com.puzzle.Constants;
 import com.puzzle.Position;
 import com.puzzle.composite_pattern.Piece;
+import com.puzzle.GameLogger;
 
 public class RotateCommand implements Command {
     private Piece piece;
@@ -17,6 +18,7 @@ public class RotateCommand implements Command {
         this.piece = piece;
         this.grid = grid;
         this.updater = updater;
+        GameLogger.getInstance().log("Command pattern used: RotateCommand created");
     }
     
     @Override
