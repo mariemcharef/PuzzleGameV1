@@ -6,10 +6,10 @@ import java.util.List;
 
 import com.puzzle.BlockType;
 import com.puzzle.Constants;
+import com.puzzle.GameLogger;
 import com.puzzle.Position;
 import com.puzzle.state_pattern.FallingState;
 import com.puzzle.state_pattern.PieceState;
-import com.puzzle.GameLogger;
 
 public class Piece implements PieceComponent {
     private BlockType type;
@@ -17,6 +17,7 @@ public class Piece implements PieceComponent {
     private Color color;
     private Position position;
     private PieceState state;
+    private PieceState previousState;
     
     public Piece(BlockType type, List<Position> blocks, Color color) {
         this(type, blocks, color, new Position(3, 0), new FallingState());
@@ -28,7 +29,7 @@ public class Piece implements PieceComponent {
         this.color = color;
         this.position = position;
         this.state = state;
-        GameLogger.getInstance().log("Composite pattern used: Piece created (" + type.name() + ")");
+        this.previousState = state;
     }
     
     @Override
@@ -57,8 +58,13 @@ public class Piece implements PieceComponent {
     
     @Override
     public void setState(PieceState state) {
+        if (this.state != state && this.previousState != state) {
+            String fromState = this.state.getClass().getSimpleName();
+            String toState = state.getClass().getSimpleName();
+            GameLogger.getInstance().logStateChange("Piece", fromState, toState);
+            this.previousState = this.state;
+        }
         this.state = state;
-        GameLogger.getInstance().log("State pattern used: " + state.getClass().getSimpleName() + " set for piece " + type.name());
     }
     
     @Override

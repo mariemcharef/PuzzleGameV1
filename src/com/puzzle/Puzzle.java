@@ -34,6 +34,8 @@ public class Puzzle extends Application {
     private int score;
     private boolean gameOver;
     private boolean isPaused;
+    private String gameState = "MENU";
+    private int currentLevel = 1;
 
     private Canvas canvas;
     private Label scoreLabel;
@@ -126,10 +128,13 @@ public class Puzzle extends Application {
         });
         primaryStage.show();
 
+        logger = GameLogger.getInstance();
+        logger.logGameStart();
+        gameState = "PLAYING";
+        logger.logStateChange("Game", "MENU", "PLAYING");
+        
         startGameLoop();
         render();
-        logger = GameLogger.getInstance();
-        logger.log("Game started.");
     }
 
     private Label createControlLabel(String text) {
@@ -187,7 +192,11 @@ public class Puzzle extends Application {
         int linesCleared = clearLines();
         score += linesCleared * 100;
         if (linesCleared > 0) {
-            logger.log(linesCleared + " line(s) cleared.");
+            logger.logGameEvent(linesCleared + " line(s) cleared");
+            if ((score / 1000) + 1 > currentLevel) {
+                currentLevel = (score / 1000) + 1;
+                logger.logLevelChange(currentLevel);
+            }
         }
 
         scoreLabel.setText(String.valueOf(score));
@@ -196,7 +205,9 @@ public class Puzzle extends Application {
 
         if (checkCollision(currentPiece)) {
             gameOver = true;
-            logger.log("Game Over! Final score: " + score);
+            gameState = "GAME_OVER";
+            logger.logStateChange("Game", "PLAYING", "GAME_OVER");
+            logger.logGameOver(score);
 
             showGameOver();
         }
@@ -235,6 +246,7 @@ public class Puzzle extends Application {
                 return true;
             }
             if (block.getY() >= 0 && grid[block.getY()][block.getX()] != null) {
+                logger.logCollision("Piece", "Grid");
                 return true;
             }
         }
@@ -269,7 +281,17 @@ public class Puzzle extends Application {
 
     private void togglePause() {
         isPaused = !isPaused;
-        pauseButton.setText(isPaused ? "Resume" : "Pause");
+        if (isPaused) {
+            gameState = "PAUSE";
+            logger.logStateChange("Game", "PLAYING", "PAUSE");
+            logger.logGamePaused();
+            pauseButton.setText("Resume");
+        } else {
+            gameState = "PLAYING";
+            logger.logStateChange("Game", "PAUSE", "PLAYING");
+            logger.logGameResumed();
+            pauseButton.setText("Pause");
+        }
     }
 
     private void render() {
@@ -326,7 +348,15 @@ public class Puzzle extends Application {
     private void restart() {
         if (timer != null) timer.cancel();
 
+        logger.logGameEvent("Game restarted");
+        gameState = "MENU";
+        logger.logStateChange("Game", "GAME_OVER", "MENU");
+        
         initializeGame();
+        currentLevel = 1;
+        gameState = "PLAYING";
+        logger.logStateChange("Game", "MENU", "PLAYING");
+        
         scoreLabel.setText("0");
         pauseButton.setText("Pause");
 

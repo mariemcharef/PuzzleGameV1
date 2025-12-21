@@ -23,7 +23,6 @@ public class MoveCommand implements Command {
         this.dy = dy;
         this.grid = grid;
         this.updater = updater;
-        GameLogger.getInstance().log("Command pattern used: MoveCommand created");
     }
     
 

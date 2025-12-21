@@ -18,7 +18,6 @@ public class RotateCommand implements Command {
         this.piece = piece;
         this.grid = grid;
         this.updater = updater;
-        GameLogger.getInstance().log("Command pattern used: RotateCommand created");
     }
     
     @Override

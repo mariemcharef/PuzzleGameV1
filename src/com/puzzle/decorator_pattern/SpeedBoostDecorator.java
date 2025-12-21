@@ -1,24 +1,24 @@
 package com.puzzle.decorator_pattern;
 
-import com.puzzle.command_pattern.Command;
 import com.puzzle.GameLogger;
+import com.puzzle.command_pattern.Command;
 
 public class SpeedBoostDecorator implements Command {
     private final Command wrappedCommand;
 
     public SpeedBoostDecorator(Command wrappedCommand) {
         this.wrappedCommand = wrappedCommand;
+        GameLogger.getInstance().logDecoratorApplied("SpeedBoost");
     }
 
     @Override
     public boolean canExecute() {
-        return wrappedCommand.canExecute();
+        return wrappedCommand.canExecute() ;
     }
 
     @Override
     public void execute() {
-        GameLogger.getInstance().log("Decorator pattern used: SpeedBoostDecorator.execute()");
-        while (wrappedCommand.canExecute()) {
+        while (wrappedCommand.canExecute() ) {
             wrappedCommand.execute();
         }
     }
