@@ -62,7 +62,6 @@ public class TetrominoFactory {
         
         Piece piece = new Piece(type, blocks, shape.color);
         GameLogger.getInstance().logEntityCreated( "Piece", type.name());
-        GameLogger.getInstance().log("Factory pattern used: TetrominoFactory.createPiece()");
         return piece;
     }
 }
